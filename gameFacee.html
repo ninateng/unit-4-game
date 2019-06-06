@@ -49,14 +49,41 @@ body, html {
     border: 3px solid #AEFF14;
     box-shadow: 0 0 40px 40px #AEFF14;
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 2;
+    z-index: -1;
     width: 50%;
     padding: 40px;
     text-align: center;
   }
+
+#instructionsBox {
+    background-color: #AEFF14(0,0,0, 0.4); /* Black w/opacity/see-through */
+    border: 3px solid #bc13fe;
+    box-shadow: 0 0 40px 40px #bc13fe;
+    position: absolute;
+    top: 50%;
+    right: 1.5%;
+    /* transform: translate(-50%, -50%); */
+    /* z-index: 2; */
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+}
+#howTo {
+    text-align: left;
+    font-weight: bold;
+    color: #bc13fe;
+    font-family: monospace;
+}
+#instructions {
+    text-align: justify;
+    font-weight: normal;
+    font-family: monospace;
+    color:#bc13fe;
+
+}
 
 </style>
 
@@ -74,12 +101,37 @@ body, html {
   </div>
 </div> -->
 <div class="bg-text" id="banner">
-    <p>welcome to.......</p>
+  <p>welcome to.......</p>
   <h2>GET THAT SHMUNNIEE</h2>
 </div>
 
-
+<!-- BANNER  -->
 <div class="container">
+        <div class="row" id="instructionsBox">
+            <div class="col-sm-6" id="howTo">
+                <h3>HOW TO PLAY</h3>
+            </div>
+            <div class="col-sm-6" id="instructions">
+                <p>View goal number,click a cardi, and add up points to goal number!!</p>
+                <p>EAAAASSSYYY !!!!</p>
+            </div>
+        </div>
+
+        <div class="row" id="categories">
+            <div class="col-sm-3" id="goal">Goal Number</div>
+            <div class="col-sm-3" id="win">Wins</div>
+            <div class="col-sm-3" id="lose">Loss</div>
+            <div class="col-sm-3" id="total">Total Points</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3" id="img1"></div>
+            <div class="col-sm-3" id="img2"></div>
+            <div class="col-sm-3" id="img3"></div>
+            <div class="col-sm-3" id="img4"></div>
+        </div>
+    </div>
+
+<!-- <div class="container">
         <div class="row bg-text" id="title"></div>
             <h2>GET THAT SHMUNNIEE</h2>
         <div class="row">
@@ -103,7 +155,7 @@ body, html {
             <div class="col-sm-3" id="img3"></div>
             <div class="col-sm-3" id="img4"></div>
         </div>
-    </div>
+    </div> -->
     
 </body>
 </html>
