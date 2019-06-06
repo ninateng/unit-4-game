@@ -1,48 +1,8 @@
 
 
 /* ----start----face html css ---start---*/
-
-body, html {
-    height: 100%;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-  .bg-image {
-    /* link background img1 */
-    background-image : url("../images/background1.jpg");
-    
-    /* blur background img */
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-
-    /* Full height */
-     height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.bg-text  {
-    background-color: rgb(0,0,0); Fallback color
-    background-color: #AEFF14; /* Black w/opacity/see-through */
-    color: #AEFF14;
-    font-weight: bold;
-    border: 3px solid #AEFF14;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 80%;
-    padding: 20px;
-    text-align: center;
-  }
-
-
-
+        /* ...going to be inside its html... 
+        cant make code work in css page */
 
 /* -----stop----face html css----stop--- */
 

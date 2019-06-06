@@ -1,42 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- linking style sheet -->
-    <script src="assets/css/style.css"></script>
-    <script src="assets/css/reset.css"></script>
-    <!-- linking js -->
-    <script src="assets/javascript/game.js"></script>
-    <!-- linking bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>home: GET THAT</title>
-</head>
-<body>
-
-        <!-- div for background image -->
-        <div class="bg-image" id="face-background"></div>
-
-        <div class="bg-text justify-content-lg-center " id="face-text">
-                <h1 style="font-size:50px">PLAY</h1>
-        </div>
-        
-
-
-</body>
+<!-- styling for page.. can't get styling
+to function on css page -->
 <style>
+
 body, html {
     height: 100%;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
 
-  .bg-image {
+.bg-image {
     /* link background img1 */
-    background-image : url("../images/background1.jpg");
+    background-image : url("https://uploads-ssl.webflow.com/5a480608115b2f000137fba8/5ad317050f7efd23fff2a858_DZ9CaYDWkAAV49f.jpg");
     
     /* blur background img */
     filter: blur(8px);
@@ -52,20 +31,34 @@ body, html {
 }
 
 .bg-text  {
-    background-color: rgb(0,0,0); Fallback color
-    background-color: #AEFF14; /* Black w/opacity/see-through */
+    
+    background-color: #AEFF14(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: #AEFF14;
     font-weight: bold;
     border: 3px solid #AEFF14;
+    box-shadow: 0 0 50px 70px #AEFF14;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    width: 80%;
-    padding: 20px;
+    width: 50%;
+    padding: 10px;
     text-align: center;
   }
 
 </style>
+
+</head>
+<body>
+
+<!-- div for image -->
+<div class="bg-image" id="face-background"></div>
+
+<div class="bg-text" id="face-text">
+  <!-- face page text.. linking game page.. -->
+  <a href="index.html" style="color:#AEFF14; font-size: 80px; font-family: monospace; font-weight: lighter "> PLAY</a>
+</div>
+
+</body>
 </html>
